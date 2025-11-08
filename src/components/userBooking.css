@@ -1,0 +1,62 @@
+.user-profile__container {
+  max-width: 768px; /* max-w-3xl equivalent */
+  margin: 2rem auto;
+  padding: 1.5rem;
+  font-family: Arial, sans-serif;
+}
+
+.user-profile__title {
+  font-size: 2rem; /* text-3xl */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1e40af; /* blue-600 */
+}
+
+.user-profile__loading,
+.user-profile__error {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.user-profile__error {
+  color: #dc2626; /* red-500 */
+}
+
+.user-profile__empty-message {
+  color: #4b5563; /* gray-600 */
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.user-profile__booking-card {
+  background-color: #fff;
+
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem; /* rounded-lg */
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+.booking-form-container {
+  margin-top: 100px;
+}
+
+.user-profile__booking-card:hover {
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.15);
+}
+
+.user-profile__booking-tour-name {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600;
+  color: #2563eb; /* blue-600 */
+  margin-bottom: 0.5rem;
+}
+
+.user-profile__booking-detail {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+  color: #374151; /* gray-700 */
+}

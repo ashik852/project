@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.review-container {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+
+.review-message {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.no-reviews {
+  color: #777;
+  font-style: italic;
+}
+
+.review-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.review-user {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.review-rating {
+  color: rgb(255, 217, 0);
+}
+
+.review-text {
+  margin: 5px 0;
+}
+
+.review-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: red;
+  margin-right: 10px;
+  padding: 3px;
+}
+.delete-btn:hover {
+  background-color: red;
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+}
+
+.edit-btn {
+  color: #007bff;
+  padding: 3px;
+}
+.edit-btn:hover {
+  background-color: #007bff;
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+}

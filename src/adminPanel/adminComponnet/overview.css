@@ -1,0 +1,18 @@
+.overview-section {
+  height: 20%;
+}
+.overview-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.overview-card {
+  padding: 30px 25px;
+  background-color: rgba(20, 60, 119, 0.849);
+  color: rgba(0, 0, 0, 0.849);
+  border: 1px solid rgba(20, 60, 119, 0.918);
+  border-radius: 6px;
+  height: 20% !important;
+}
+.overview-footer {
+  margin: 10px 0px;
+}

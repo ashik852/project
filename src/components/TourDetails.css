@@ -1,0 +1,98 @@
+/* TourDetails.css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.tour-details {
+  max-width: 100%;
+  margin: auto;
+  margin-top: 60px;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+}
+
+.tour-details h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #1a202c; /* dark gray */
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+/* Slider */
+.image-slider {
+  margin-bottom: 30px;
+}
+
+.slider-img {
+  width: 100% !important;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Tour Info Section */
+.tour-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: #f7fafc; /* light gray */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+}
+
+.tour-info h3 {
+  font-size: 1.75rem;
+  margin-bottom: 12px;
+  color: #2d3748; /* gray-800 */
+}
+
+.tour-info p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+/* Map Section */
+.tour-details section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #2c7a7b; /* teal-600 */
+}
+
+/* Book Now Button */
+.tour-details .book-now-btn {
+  background-color: #38a169; /* green-600 */
+  color: white;
+  font-size: 1.1rem;
+  padding: 12px 36px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgb(56 161 105 / 0.4);
+}
+
+.tour-details .book-now-btn:hover {
+  background-color: #2f855a; /* green-700 */
+}
+.tour-info__detail {
+  margin: 10px 0px;
+  font-size: 18px;
+}
+.tour-info__detail span {
+  font-size: medium;
+  color: #2d2f339a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slider-img {
+    height: 300px;
+  }
+  .tour-details {
+    padding: 15px;
+  }
+}

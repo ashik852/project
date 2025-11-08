@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.create-tour-container {
+  max-width: 600px;
+  margin: 70px auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+}
+
+.create-tour-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.create-tour-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-tour-input,
+.create-tour-file-input {
+  width: 100%;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-bottom: 16px;
+}
+
+.create-tour-input:focus,
+.create-tour-file-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 5px #2563eb;
+}
+
+.create-tour-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+.create-tour-submit-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 14px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 12px;
+}
+.heder-img {
+  margin-top: 25px;
+  height: 50px;
+  width: 60px;
+}
+
+.create-tour-submit-btn:hover {
+  background-color: #1e40af;
+}
+
+.create-tour-message {
+  margin-top: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.create-tour-message-success {
+  color: #16a34a;
+}
+.create-tour-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.header-img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.title-text {
+  display: inline-block;
+}
+
+.create-tour-message-error {
+  color: #dc2626;
+}
+.input-label {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  margin-top: 12px;
+  color: #333;
+}

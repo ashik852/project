@@ -1,0 +1,36 @@
+.tour-data-container {
+  margin-top: 40px !important;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.tour-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.tour-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 20px;
+}
+
+.tour-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+.heder-design {
+  display: flex;
+  justify-content: center;
+}
+.tour-title span img.logo-img {
+  width: 45px;
+  height: 30px;
+  object-fit: cover;
+  margin-top: 1px;
+}

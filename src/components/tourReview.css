@@ -1,0 +1,89 @@
+/* Container */
+.review-container {
+  padding: 2rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Title */
+.review-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+/* No review text */
+.no-reviews {
+  text-align: center;
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Grid layout */
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+/* Card */
+.review-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* User Image */
+.review-user-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #eee;
+}
+
+/* Content */
+.review-content {
+  flex: 1;
+}
+
+.review-user-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  color: #222;
+}
+
+.review-text {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0.3rem 0 0.6rem;
+  line-height: 1.4;
+}
+
+.review-rating {
+  font-size: 0.9rem;
+  color: #f4b400;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+.review-date {
+  font-size: 0.8rem;
+  color: #888;
+}
